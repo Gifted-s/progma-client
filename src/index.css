@@ -1,0 +1,335 @@
+body{
+  font-family: 'Rubik', sans-serif !important;
+}
+.card_cont h1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px !important;
+}
+h1, h6, h2 , h3, h4, h5{
+  font-family: 'Rubik', sans-serif;
+}
+h1{
+  color: rgb(1, 18, 75) !important;
+}
+
+.card_cont{
+  border-radius:10px;
+  box-shadow: 0 0 16px 0 rgba(0,0,0,0.1);
+  transition: all 0.6s linear;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  padding: 50px 60px !important;
+
+}
+.user small{
+   font-size:13px;
+   margin-top: -20px !important;
+  color: rgba(0,0,0,0.6) !important;
+}
+.user{
+  margin-top: 25px;
+  border-radius:10px;
+  border: 1px solid rgba(0,0,0,0.08);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.06);
+
+  padding: 20px 30px !important;
+}
+.tttp{
+  padding: 20px 20px !important;
+}
+.user h6{
+  font-size:13px;
+}
+.user_row{
+  padding:20px !important;
+  margin-top: -20px !important;
+}
+.user .btn{
+  border-radius: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+}
+.checked span{
+  color:rgb(20, 202, 14);
+  font-size: 20px;
+}
+.checked{
+  right:20px;
+  position: absolute;
+  top:30px;
+}
+.user_row .user .btn-primary{
+ 
+  background-color: rgb(52, 126, 206);
+}
+
+.card_cont:hover{
+  
+  box-shadow: 0 0 15px 5px rgba(0,0,0,0.25);
+}
+.card_img img{
+  height:20vh !important;
+
+}
+/* .card_img {
+  
+} */
+.card_cont .btn{
+  font-family: 'Rubik', sans-serif !important;
+  border-radius: 20px !important;
+  padding:7px 20px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  margin-top: 20px !important;
+  color: white !important;
+  /* display:none; */
+}
+.p_c{
+  min-height: 70vh;
+  border-radius:10px;
+  box-shadow: 0 0 20px 16px rgba(0,0,0,0.05);
+  margin-top: 50px;
+}
+.selector{
+  padding:30px 20px !important;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  width:100% !important;
+  margin-left: 0px !important;
+
+}
+.each_pro h4{
+  font-family: 'Rubik', sans-serif !important; 
+  font-size: 18px !important;
+  font-weight: lighter;
+  color: rgb(8, 44, 29);
+}
+.each_pro {
+  cursor: pointer;
+border-bottom: 1px solid rgba(0,0,0,0.1);
+ display: flex !important;
+ flex-direction: row;
+ justify-content: space-between !important;
+ padding: 13px 40px !important;
+ transition: all 0.4s linear;
+}
+.each_pro:hover{
+  background-color: rgba(0,0,0,0.03);
+ 
+}
+.inp{
+  padding:16px 30px;
+}
+.inp .btn{
+  margin-left: 10px;
+  border-radius: 30px;
+  padding:7px 20px;
+
+}
+.inp input{
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 16px;
+  padding:9px 20px;
+  background-color: rgba(0,0,0,0.1);
+  border:none;
+  outline: none !important;
+  outline-color: transparent;
+  width:50%;
+  border-radius: 26px;
+}
+.s_i{
+  position: absolute;
+  margin-top:2px;
+  right:55px;
+  font-size:20px;
+  color: rgba(0,0,0,0.6);
+}
+.svg{
+  position: fixed;
+  right:0;
+  bottom:0px;
+  right:10px
+}
+.svg img{
+  height:24vh;
+}
+.each_pro span{
+ background-color: rgb(5, 81, 196);
+ color: white;
+ padding:6px;
+ cursor: pointer;
+ border-radius: 21px;
+}
+.ttt{
+  margin-left:-20px;
+}
+.uui{
+  border-radius: 10px !important;
+  font-size: 13px !important;
+  padding:2px  !important;
+  color:rgb(5, 81, 196) !important;
+  background-color: #efefef !important;
+}
+.selector span{
+  font-family: 'Rubik', sans-serif !important; 
+  font-size: 17px !important;
+  font-weight: bolder !important;
+  color: rgb(7, 25, 106);
+  cursor: pointer;
+
+}
+.default{
+  color: rgba(0,0,0,0.5) !important;
+  padding:6px;
+}
+.current{
+  color: white !important;
+  border-radius: 19px;
+  background-color: rgb(54, 121, 221);
+  padding:7px 20px;
+ 
+}
+.p_cont{
+  min-height:50vh;
+  border: 1px solid rgba(0,0,0,0.09);
+  border-radius:6px;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
+.each_p .ed{
+  margin-left:20px !important;
+}
+.each_p{
+  padding:10px 25px !important;
+
+  border-bottom: 1px solid rgba(0,0,0,0.09);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.each_p h4{
+  margin-top: 7px;
+  font-size:16px;
+  font-weight:500;
+}
+/* .each_p span.btn{
+  margin-left:20px;
+  font-size: 14px !important;
+  border-radius: 15px !important;
+} */
+.pro input{
+  width:50%;
+  border-radius: 20px;
+  padding:10px 20px;
+  background-color: rgba(0,0,0,0.06);
+  border:none;
+  outline: none;
+}
+.each_p .btn{
+  font-size:14px;
+  border-radius: 18px;;
+}
+.warn{
+background-color: rgb(255, 196, 0);
+height:6px;
+width:6px;
+right:21px;
+top:35px;
+border-radius:3px;
+}
+.nk .col-2, .nk .col-1, .nk .col-3{
+ justify-content: center !important;
+ padding-top:20px;
+ 
+ display: flex !important;
+ font-weight: bold;
+ font-size:15px;
+ border:1px solid rgba(0,0,0,0.1);
+}
+.active_{
+width:9px;
+
+height:9px;
+background-color: rgb(11, 117, 11);
+border-radius:50%;
+margin-top:6px;
+}
+.nonactive_{
+  margin-top:6px;
+  width:9px;
+  height:9px;
+  background-color: rgb(235, 22, 33);
+  border-radius:50%;
+  }
+.items .col-2, .items .col-1, .items .col-3{
+  padding:0px 0px;
+  align-items: center !important;
+  flex-direction:column !important;
+ justify-content: center !important;
+ display: flex !important;
+ font-size:13px;
+ font-weight: lighter;
+ border-left:0.1em solid rgba(0,0,0,0.1);
+ 
+ border-bottom:0.1em solid rgba(0,0,0,0.1);
+}
+.nmm{
+  justify-content: flex-start !important;
+  display: flex !important;
+}
+.mm{
+  border-right:0.1em solid rgba(0,0,0,0.1);
+}
+.btn-round{
+  border-radius:30px !important;
+}
+.lol .col-3, .lol .col-2{
+font-size:13px !important;
+}
+.ik{
+  width:90%  !important;
+}
+.nnm .col-3, .nnm .col-2{
+  font-weight: lighter !important;
+}
+.user  b{
+  opacity: 0.6 !important;
+  margin-right: 2px !important;
+  font-weight: lighter !important;
+}
+@media screen and (max-width:768px){
+  .mkmkk{
+    padding:  0 !important;
+  }
+  .ttt{
+    margin-left: -12px !important;
+  }
+  .c2{
+    margin-left: -20px;
+  }
+  .inp input{
+
+    width:100%;
+    
+  }
+  .card_cont .btn span{
+    margin-top:-10px !important;
+  }
+  .card_cont{
+    padding: 50px 90px !important;
+    
+  margin-top: 30px;
+}
+.card_img{
+  margin-left: 20px;
+}
+.card_img img{
+  height: 10vh !important;
+}
+.svg{
+  display: none;
+}
+
+}
