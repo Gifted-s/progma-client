@@ -70,7 +70,7 @@ function Users(props) {
         let filter = []
         const regex_query = new RegExp(query, 'i')
         for (let i of users) {
-            if (i.name.search(regex_query) >= 0 || i.email.search(regex_query) >= 0 || i.project.search(regex_query) >= 0) {
+            if (i.firstname.search(regex_query) >= 0 || i.lastname.search(regex_query) >= 0 || i.username.search(regex_query) >= 0 || i.email.search(regex_query) >= 0 || i.project.search(regex_query) >= 0) {
                 filter = [...filter, i]
             }
         }
